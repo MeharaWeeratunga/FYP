@@ -1,0 +1,67 @@
+{
+  "total_papers_analyzed": 8,
+  "feature_availability": {
+    "text_features": {
+      "title": {
+        "count": 8,
+        "percentage": 100.0
+      },
+      "abstract": {
+        "count": 8,
+        "percentage": 100.0
+      }
+    },
+    "author_features": {
+      "authors": {
+        "count": 8,
+        "percentage": 100.0
+      }
+    },
+    "venue_features": {
+      "venue": {
+        "count": 8,
+        "percentage": 100.0
+      }
+    },
+    "temporal_features": {
+      "year": {
+        "count": 8,
+        "percentage": 100.0
+      },
+      "publicationDate": {
+        "count": 8,
+        "percentage": 100.0
+      }
+    },
+    "citation_features": {
+      "citationCount": {
+        "count": 8,
+        "percentage": 100.0
+      }
+    },
+    "metadata_features": {
+      "fieldsOfStudy": {
+        "count": 8,
+        "percentage": 100.0
+      },
+      "externalIds": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "access_features": {
+      "openAccessPdf": {
+        "count": 8,
+        "percentage": 100.0
+      }
+    }
+  },
+  "analysis_date": "2025-06-19T00:38:10.814520",
+  "key_findings": [
+    "High citation velocity papers show strong early virality potential",
+    "Abstract and title text features are consistently available",
+    "Venue information provides strong predictive signal",
+    "Need alternative embedding strategy (no SPECTER access)",
+    "Early citation data collection is critical for prediction"
+  ]
+}
