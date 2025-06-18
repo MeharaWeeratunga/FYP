@@ -1,0 +1,41 @@
+[
+  {
+    "paper_id": "72ce1f2b6c2f66f548607faf53ffccf1f5a2acd5",
+    "title": "Adversarial Robustness in Graph Neural Networks: A Hamiltonian Approach",
+    "abstract": "Graph neural networks (GNNs) are vulnerable to adversarial perturbations, including those that affect both node features and graph topology. This paper investigates GNNs derived from diverse neural flows, concentrating on their connection to various stability notions such as BIBO stability, Lyapunov stability, structural stability, and conservative stability. We argue that Lyapunov stability, despite its common use, does not necessarily ensure adversarial robustness. Inspired by physics principles, we advocate for the use of conservative Hamiltonian neural flows to construct GNNs that are robust to adversarial attacks. The adversarial robustness of different neural flow GNNs is empirically compared on several benchmark datasets under a variety of adversarial attacks. Extensive numerical experiments demonstrate that GNNs leveraging conservative Hamiltonian flows with Lyapunov stability substantially improve robustness against adversarial perturbations. The implementation code of experiments is available at https://github.com/zknus/NeurIPS-2023-HANG-Robustness.",
+    "venue": "Neural Information Processing Systems",
+    "year": 2023,
+    "citation_count": 24,
+    "is_cs_paper": true,
+    "fields_of_study": [
+      "Computer Science"
+    ],
+    "collection_date": "2025-06-19T01:03:05.250730"
+  },
+  {
+    "paper_id": "12a876a7f28376df2f2b26849e097945e4e32cdf",
+    "title": "Automated Self-Supervised Learning for Recommendation",
+    "abstract": "Graph neural networks (GNNs) have emerged as the state-of-the-art paradigm for collaborative filtering (CF). To improve the representation quality over limited labeled data, contrastive learning has attracted attention in recommendation and benefited graph-based CF model recently. However, the success of most contrastive methods heavily relies on manually generating effective contrastive views for heuristic-based data augmentation. This does not generalize across different datasets and downstream recommendation tasks, which is difficult to be adaptive for data augmentation and robust to noise perturbation. To fill this crucial gap, this work proposes a unified Automated Collaborative Filtering (AutoCF) to automatically perform data augmentation for recommendation. Specifically, we focus on the generative self-supervised learning framework with a learnable augmentation paradigm that benefits the automated distillation of important self-supervised signals. To enhance the representation discrimination ability, our masked graph autoencoder is designed to aggregate global information during the augmentation via reconstructing the masked subgraph structures. Experiments and ablation studies are performed on several public datasets for recommending products, venues, and locations. Results demonstrate the superiority of AutoCF against various baseline methods. We release the model implementation at https://github.com/HKUDS/AutoCF.",
+    "venue": "The Web Conference",
+    "year": 2023,
+    "citation_count": 93,
+    "is_cs_paper": true,
+    "fields_of_study": [
+      "Computer Science"
+    ],
+    "collection_date": "2025-06-19T01:03:14.579098"
+  },
+  {
+    "paper_id": "8a4bd7804898f997b0038c0adc3b4de698511550",
+    "title": "Crowd Density Estimation and Mapping Method Based on Surveillance Video and GIS",
+    "abstract": "Aiming at the problem that the existing crowd counting methods cannot achieve accurate crowd counting and map visualization in a large scene, a crowd density estimation and mapping method based on surveillance video and GIS (CDEM-M) is proposed. Firstly, a crowd semantic segmentation model (CSSM) and a crowd denoising model (CDM) suitable for high-altitude scenarios are constructed by transfer learning. Then, based on the homography matrix between the video and remote sensing image, the crowd areas in the video are projected to the map space. Finally, according to the distance from the crowd target to the camera, the camera inclination, and the area of the crowd polygon in the geographic space, a BP neural network for the crowd density estimation is constructed. The results show the following: (1) The test accuracy of the CSSM was 96.70%, and the classification accuracy of the CDM was 86.29%, which can achieve a high-precision crowd extraction in large scenes. (2) The BP neural network for the crowd density estimation was constructed, with an average error of 1.2 and a mean square error of 4.5. Compared to the density map method, the MAE and RMSE of the CDEM-M are reduced by 89.9 and 85.1, respectively, which is more suitable for a high-altitude camera. (3) The crowd polygons were filled with the corresponding number of points, and the symbol was a human icon. The crowd mapping and visual expression were realized. The CDEM-M can be used for crowd supervision in stations, shopping malls, and sports venues.",
+    "venue": "ISPRS Int. J. Geo Inf.",
+    "year": 2023,
+    "citation_count": 16,
+    "is_cs_paper": true,
+    "fields_of_study": [
+      "Computer Science"
+    ],
+    "collection_date": "2025-06-19T01:03:15.652178"
+  }
+]

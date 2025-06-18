@@ -1,0 +1,82 @@
+[
+  {
+    "paper_id": "89ed6b381aeb81715172f0ff60163f2ea3a3abc4",
+    "title": "IGLU 2022: Interactive Grounded Language Understanding in a Collaborative Environment at NeurIPS 2022",
+    "abstract": "Human intelligence has the remarkable ability to adapt to new tasks and environments quickly. Starting from a very young age, humans acquire new skills and learn how to solve new tasks either by imitating the behavior of others or by following provided natural language instructions. To facilitate research in this direction, we propose IGLU: Interactive Grounded Language Understanding in a Collaborative Environment. The primary goal of the competition is to approach the problem of how to develop interactive embodied agents that learn to solve a task while provided with grounded natural language instructions in a collaborative environment. Understanding the complexity of the challenge, we split it into sub-tasks to make it feasible for participants. This research challenge is naturally related, but not limited, to two fields of study that are highly relevant to the NeurIPS community: Natural Language Understanding and Generation (NLU/G) and Reinforcement Learning (RL). Therefore, the suggested challenge can bring two communities together to approach one of the crucial challenges in AI. Another critical aspect of the challenge is the dedication to perform a human-in-the-loop evaluation as a final evaluation for the agents developed by contestants.",
+    "venue": "arXiv.org",
+    "year": 2022,
+    "citation_count": 21,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:59:00.609717"
+  },
+  {
+    "paper_id": "62cee6db1d962fd5fa7ea07f049d7ecc576c78f5",
+    "title": "Traffic4cast at NeurIPS 2021 - Temporal and Spatial Few-Shot Transfer Learning in Gridded Geo-Spatial Processes",
+    "abstract": "The IARAI Traffic4cast competitions at NeurIPS 2019 and 2020 showed that neural networks can successfully predict future traffic conditions 1 hour into the future on simply aggregated GPS probe data in time and space bins. We thus reinterpreted the challenge of forecasting traffic conditions as a movie completion task. U-Nets proved to be the winning architecture, demonstrating an ability to extract relevant features in this complex real-world geo-spatial process. Building on the previous competitions, Traffic4cast 2021 now focuses on the question of model robustness and generalizability across time and space. Moving from one city to an entirely different city, or moving from pre-COVID times to times after COVID hit the world thus introduces a clear domain shift. We thus, for the first time, release data featuring such domain shifts. The competition now covers ten cities over 2 years, providing data compiled from over 10^12 GPS probe data. Winning solutions captured traffic dynamics sufficiently well to even cope with these complex domain shifts. Surprisingly, this seemed to require only the previous 1h traffic dynamic history and static road graph as input.",
+    "venue": "Neural Information Processing Systems",
+    "year": 2022,
+    "citation_count": 20,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:59:00.609782"
+  },
+  {
+    "paper_id": "bfe49426a90213a1591e125d299b13bbfafa8c0a",
+    "title": "Insights From the NeurIPS 2021 NetHack Challenge",
+    "abstract": "In this report, we summarize the takeaways from the first NeurIPS 2021 NetHack Challenge. Participants were tasked with developing a program or agent that can win (i.e., 'ascend' in) the popular dungeon-crawler game of NetHack by interacting with the NetHack Learning Environment (NLE), a scalable, procedurally generated, and challenging Gym environment for reinforcement learning (RL). The challenge showcased community-driven progress in AI with many diverse approaches significantly beating the previously best results on NetHack. Furthermore, it served as a direct comparison between neural (e.g., deep RL) and symbolic AI, as well as hybrid systems, demonstrating that on NetHack symbolic bots currently outperform deep RL by a large margin. Lastly, no agent got close to winning the game, illustrating NetHack's suitability as a long-term benchmark for AI research.",
+    "venue": "Neural Information Processing Systems",
+    "year": 2022,
+    "citation_count": 19,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:59:00.609799"
+  },
+  {
+    "paper_id": "fc50d3d9f2838e0c87068c3839e7d18ea6a7c7ad",
+    "title": "Results of the NeurIPS'21 Challenge on Billion-Scale Approximate Nearest Neighbor Search",
+    "abstract": "Despite the broad range of algorithms for Approximate Nearest Neighbor Search, most empirical evaluations of algorithms have focused on smaller datasets, typically of 1 million points~\\citep{Benchmark}. However, deploying recent advances in embedding based techniques for search, recommendation and ranking at scale require ANNS indices at billion, trillion or larger scale. Barring a few recent papers, there is limited consensus on which algorithms are effective at this scale vis-\\`a-vis their hardware cost. This competition compares ANNS algorithms at billion-scale by hardware cost, accuracy and performance. We set up an open source evaluation framework and leaderboards for both standardized and specialized hardware. The competition involves three tracks. The standard hardware track T1 evaluates algorithms on an Azure VM with limited DRAM, often the bottleneck in serving billion-scale indices, where the embedding data can be hundreds of GigaBytes in size. It uses FAISS~\\citep{Faiss17} as the baseline. The standard hardware track T2 additional allows inexpensive SSDs in addition to the limited DRAM and uses DiskANN~\\citep{DiskANN19} as the baseline. The specialized hardware track T3 allows any hardware configuration, and again uses FAISS as the baseline. We compiled six diverse billion-scale datasets, four newly released for this competition, that span a variety of modalities, data types, dimensions, deep learning models, distance functions and sources. The outcome of the competition was ranked leaderboards of algorithms in each track based on recall at a query throughput threshold. Additionally, for track T3, separate leaderboards were created based on recall as well as cost-normalized and power-normalized query throughput.",
+    "venue": "Neural Information Processing Systems",
+    "year": 2022,
+    "citation_count": 49,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:59:00.609810"
+  },
+  {
+    "paper_id": "1845ece5be61f96292d0b3ea3ecec251b2510909",
+    "title": "Lessons learned from the NeurIPS 2021 MetaDL challenge: Backbone fine-tuning without episodic meta-learning dominates for few-shot learning image classification",
+    "abstract": "Although deep neural networks are capable of achieving performance superior to humans on various tasks, they are notorious for requiring large amounts of data and computing resources, restricting their success to domains where such resources are available. Metalearning methods can address this problem by transferring knowledge from related tasks, thus reducing the amount of data and computing resources needed to learn new tasks. We organize the MetaDL competition series, which provide opportunities for research groups all over the world to create and experimentally assess new meta-(deep)learning solutions for real problems. In this paper, authored collaboratively between the competition organizers and the top-ranked participants, we describe the design of the competition, the datasets, the best experimental results, as well as the top-ranked methods in the NeurIPS 2021 challenge, which attracted 15 active teams who made it to the final phase (by outperforming the baseline), making over 100 code submissions during the feedback phase. The solutions of the top participants have been open-sourced. The lessons learned include that learning good representations is essential for effective transfer learning.",
+    "venue": "Neural Information Processing Systems",
+    "year": 2022,
+    "citation_count": 12,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:59:00.609820"
+  },
+  {
+    "paper_id": "78eab2280da8f079373ae27c90a09d0b2936a3ec",
+    "title": "Team Cogitat at NeurIPS 2021: Benchmarks for EEG Transfer Learning Competition",
+    "abstract": "Building subject-independent deep learning models for EEG decoding faces the challenge of strong covariate-shift across different datasets, subjects and recording sessions. Our approach to address this difficulty is to explicitly align feature distributions at various layers of the deep learning model, using both simple statistical techniques as well as trainable methods with more representational capacity. This follows in a similar vein as covariance-based alignment methods, often used in a Riemannian manifold context. The methodology proposed herein won first place in the 2021 Benchmarks in EEG Transfer Learning (BEETL) competition, hosted at the NeurIPS conference. The first task of the competition consisted of sleep stage classification, which required the transfer of models trained on younger subjects to perform inference on multiple subjects of older age groups without personalized calibration data, requiring subject-independent models. The second task required to transfer models trained on the subjects of one or more source motor imagery datasets to perform inference on two target datasets, providing a small set of personalized calibration data for multiple test subjects.",
+    "venue": "arXiv.org",
+    "year": 2022,
+    "citation_count": 10,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:59:00.609830"
+  },
+  {
+    "paper_id": "f7cc714321dbe097766e58cd7aa95a2552dd3b23",
+    "title": "Forecasting venue popularity on location\u2010based services using interpretable machine learning",
+    "abstract": "Customers are increasingly utilizing location\u2010based services via mobile devices to engage with retail establishments. The focus of this paper is to identify factors that help to drive venue popularity revealed by location\u2010based services, which then better facilitate companies\u2019 operational decisions, such as procurement and staff scheduling. Using data collected from Foursquare and Yelp, we build, evaluate, and compare a wide variety of machine learning methods including deep learning models with varying characteristics and degrees of sophistication. First, we find that support vector regression is the best performing model compared to other complex predictive algorithms. Second, we apply SHAP (Shapley Additive exPlanations) to quantify the contribution from each business feature at both the global and local levels. The global interpretability results show that customer loyalty, the agglomeration effect, and the word\u2010of\u2010mouth effect are the top three drivers of venue popularity. Furthermore, the local interpretability analysis reveals that the contributions of business features vary, both quantitatively and directionally. Our findings are robust with respect to different popularity measures, training and testing periods, and prediction horizons. These findings extend our knowledge of location\u2010based services by demonstrating their potential to play a prominent role in attracting consumer engagement and boosting venue popularity. Managers can make better operational decisions such as procurement and staff scheduling based on these more accurate venue popularity prediction methods. Furthermore, this study also highlights the importance of model interpretability which enhances the ability of managers to more effectively utilize machine learning models for effective decision\u2010making.",
+    "venue": "Production and operations management",
+    "year": 2022,
+    "citation_count": 15,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:59:00.609849"
+  },
+  {
+    "paper_id": "4f731ca3b12a445164cfb4132c6f4c14e0f6fc11",
+    "title": "SPATM: A Social Period-Aware Topic Model for Personalized Venue Recommendation",
+    "abstract": "Personalized venues recommendation is essential to help people find attractive venue to visit as growth of location-based social networks. Existing approaches never distinguish user individual interests from her social preferences, which leads to a bottleneck of modeling user check-in behaviors accurately. In this paper, we find the differences between user interests and her social preferences clearly and investigate the time law of user check-in behaviors in depth. Consequently, we propose a social-period-aware topic model (SPATM) to learn the influence weights of both user interests and her social preferences on making-decision for each check-in time automatically. Especially, we model latent topic by leveraging smaller size of dynamic activities instead of static categories, which can alleviate the data sparsity problem by using more co-occurrent activities information. Moreover, our approach can automatically judge whether a user\u2019s social preference is periodic or aperiodic and learn the periodicity of periodic one. Furthermore, the Alias Sampling based training approach is introduced to improve sampling efficiency. The results demonstrate our proposed model is effective and outperforms the state-of-the-art approaches in terms of effectiveness and efficiency. Besides, SPATM can learn semantically coherent latent topics and geographically dispersed latent social topics which are useful to explain recommendation.",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "year": 2022,
+    "citation_count": 11,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:59:00.609860"
+  }
+]

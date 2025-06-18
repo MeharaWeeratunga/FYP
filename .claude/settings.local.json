@@ -14,7 +14,9 @@
       "Bash(python test:*)",
       "Bash(pip install:*)",
       "Bash(python:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(tree:*)",
+      "Bash(jq:*)"
     ],
     "deny": []
   }

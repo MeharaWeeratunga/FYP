@@ -1,0 +1,52 @@
+[
+  {
+    "paper_id": "661f2461c81c0b7623663589ea7b9b56ab26256f",
+    "title": "Effects of tobacco product use on oral health and the role of oral healthcare providers in cessation: A narrative review",
+    "abstract": "Tobacco use has detrimental effects on health, including oral health. The emergence and increasing popularity of newer tobacco and nicotine products make tobacco use one of the major public health problems in the world. Tobacco use increases the risk of oral diseases such as oral cancer, oral mucosal lesions, periodontal disease, and dental caries, among many other oral diseases and conditions. The dental office is an excellent venue for providing cessation intervention. However, there is a lack of knowledge and training in tobacco use prevention among dental professionals. More efforts are needed for smoking cessation interventions in the dental office. Smoking cessation interventions provided by oral healthcare providers include brief educational, behavioral, and pharmacological interventions. This review provides an overview of the ill effects of tobacco use on oral health and the role of oral healthcare providers in managing and preventing tobacco dependence.",
+    "venue": "Tobacco Induced Diseases",
+    "year": 2023,
+    "citation_count": 44,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:58:16.900076"
+  },
+  {
+    "paper_id": "6dbb9aa723b8f42693b72d894747986fb0460182",
+    "title": "WEIRD FAccTs: How Western, Educated, Industrialized, Rich, and Democratic is FAccT?",
+    "abstract": "Studies conducted on Western, Educated, Industrialized, Rich, and Democratic (WEIRD) samples are considered atypical of the world\u2019s population and may not accurately represent human behavior. In this study, we aim to quantify the extent to which the ACM FAccT conference, the leading venue in exploring Artificial Intelligence (AI) systems\u2019 fairness, accountability, and transparency, relies on WEIRD samples. We collected and analyzed 128 papers published between 2018 and 2022, accounting for 30.8% of the overall proceedings published at FAccT in those years (excluding abstracts, tutorials, and papers without human-subject studies or clear country attribution for the participants). We found that 84% of the analyzed papers were exclusively based on participants from Western countries, particularly exclusively from the U.S. (63%). Only researchers who undertook the effort to collect data about local participants through interviews or surveys added diversity to an otherwise U.S.-centric view of science. Therefore, we suggest that researchers collect data from under-represented populations to obtain an inclusive worldview. To achieve this goal, scientific communities should champion data collection from such populations and enforce transparent reporting of data biases.",
+    "venue": "Conference on Fairness, Accountability and Transparency",
+    "year": 2023,
+    "citation_count": 36,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:58:16.900119"
+  },
+  {
+    "paper_id": "9002a1c5422b3156efebdbb118101523e5184149",
+    "title": "Alexa Arena: A User-Centric Interactive Platform for Embodied AI",
+    "abstract": "We introduce Alexa Arena, a user-centric simulation platform for Embodied AI (EAI) research. Alexa Arena provides a variety of multi-room layouts and interactable objects, for the creation of human-robot interaction (HRI) missions. With user-friendly graphics and control mechanisms, Alexa Arena supports the development of gamified robotic tasks readily accessible to general human users, thus opening a new venue for high-efficiency HRI data collection and EAI system evaluation. Along with the platform, we introduce a dialog-enabled instruction-following benchmark and provide baseline results for it. We make Alexa Arena publicly available to facilitate research in building generalizable and assistive embodied agents.",
+    "venue": "Neural Information Processing Systems",
+    "year": 2023,
+    "citation_count": 27,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:58:16.900131"
+  },
+  {
+    "paper_id": "6a2585007bc7aaca5411d8876f1193b06b6d70de",
+    "title": "A Survey of Data Pricing for Data Marketplaces",
+    "abstract": "A data marketplace is an online venue that brings data owners, data brokers, and data consumers together and facilitates commoditisation of data amongst them. Data pricing, as a key function of a data marketplace, demands quantifying the monetary value of data. A considerable number of studies on data pricing can be found in literature. This article attempts to comprehensively review the state-of-the-art on existing data pricing studies to provide a general understanding of this emerging research area. Our key contribution lies in a new taxonomy of data pricing studies that unifies different attributes determining data prices. The basis of our framework categorises these studies by the kind of market structure, be it sell-side, buy-side, or two-sided. Then in a sell-side market, the studies are further divided by query type, which defines the way a data consumer accesses data, while in a buy-side market, the studies are divided according to privacy notion, which defines the way to quantify privacy of data owners. In a two-sided market, both privacy notion and query type are used as criteria. We systematically examine the studies falling into each category in our taxonomy. Lastly, we discuss gaps within the existing research and define future research directions.",
+    "venue": "IEEE Transactions on Big Data",
+    "year": 2023,
+    "citation_count": 29,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:58:16.900140"
+  },
+  {
+    "paper_id": "c35c41dc9c93eff38ec8913cb4d639b06a915d33",
+    "title": "Linear attention is (maybe) all you need (to understand transformer optimization)",
+    "abstract": "Transformer training is notoriously difficult, requiring a careful design of optimizers and use of various heuristics. We make progress towards understanding the subtleties of training Transformers by carefully studying a simple yet canonical linearized shallow Transformer model. Specifically, we train linear Transformers to solve regression tasks, inspired by J.~von Oswald et al.~(ICML 2023), and K.~Ahn et al.~(NeurIPS 2023). Most importantly, we observe that our proposed linearized models can reproduce several prominent aspects of Transformer training dynamics. Consequently, the results obtained in this paper suggest that a simple linearized Transformer model could actually be a valuable, realistic abstraction for understanding Transformer optimization.",
+    "venue": "International Conference on Learning Representations",
+    "year": 2023,
+    "citation_count": 53,
+    "is_cs_paper": true,
+    "collection_date": "2025-06-19T00:58:16.900177"
+  }
+]
