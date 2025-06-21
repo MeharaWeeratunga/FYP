@@ -1,0 +1,822 @@
+{
+  "citation_rf_builtin": [
+    {
+      "feature": "avg_word_length",
+      "importance": 0.11559647669570275
+    },
+    {
+      "feature": "abstract_length",
+      "importance": 0.08120844133296017
+    },
+    {
+      "feature": "title_length",
+      "importance": 0.07218335794066744
+    },
+    {
+      "feature": "comma_count",
+      "importance": 0.06611577933292484
+    },
+    {
+      "feature": "abstract_words",
+      "importance": 0.06524224616867252
+    },
+    {
+      "feature": "parentheses_count",
+      "importance": 0.06040461625956649
+    },
+    {
+      "feature": "cs_machine_learning_count",
+      "importance": 0.05440941979294022
+    },
+    {
+      "feature": "title_words",
+      "importance": 0.05206311034834526
+    },
+    {
+      "feature": "cs_total_keywords",
+      "importance": 0.05194891698970858
+    },
+    {
+      "feature": "math_symbols",
+      "importance": 0.0505107422798759
+    },
+    {
+      "feature": "sentence_count",
+      "importance": 0.04671612065354478
+    },
+    {
+      "feature": "cs_data_count",
+      "importance": 0.041503231025913495
+    },
+    {
+      "feature": "numbers_count",
+      "importance": 0.03889590597784192
+    },
+    {
+      "feature": "cs_algorithms_count",
+      "importance": 0.03301556373176504
+    },
+    {
+      "feature": "cs_systems_count",
+      "importance": 0.02873273004813586
+    },
+    {
+      "feature": "hypothesis_words",
+      "importance": 0.022038430943643297
+    },
+    {
+      "feature": "semicolon_count",
+      "importance": 0.021005074107955365
+    },
+    {
+      "feature": "author_count",
+      "importance": 0.01679589633136316
+    },
+    {
+      "feature": "authors_per_reference",
+      "importance": 0.016451280426805687
+    },
+    {
+      "feature": "paper_age_from_2015",
+      "importance": 0.015927431497878692
+    }
+  ],
+  "citation_xgb_builtin": [
+    {
+      "feature": "publication_year",
+      "importance": 0.0630689188838005
+    },
+    {
+      "feature": "cs_security_count",
+      "importance": 0.05842498689889908
+    },
+    {
+      "feature": "math_symbols",
+      "importance": 0.052737414836883545
+    },
+    {
+      "feature": "semicolon_count",
+      "importance": 0.05164501816034317
+    },
+    {
+      "feature": "parentheses_count",
+      "importance": 0.05141903832554817
+    },
+    {
+      "feature": "cs_systems_count",
+      "importance": 0.050166040658950806
+    },
+    {
+      "feature": "author_count",
+      "importance": 0.05013395473361015
+    },
+    {
+      "feature": "cs_data_count",
+      "importance": 0.049044039100408554
+    },
+    {
+      "feature": "avg_word_length",
+      "importance": 0.04880252480506897
+    },
+    {
+      "feature": "cs_machine_learning_count",
+      "importance": 0.04632541909813881
+    },
+    {
+      "feature": "brackets_count",
+      "importance": 0.04601029306650162
+    },
+    {
+      "feature": "numbers_count",
+      "importance": 0.045258376747369766
+    },
+    {
+      "feature": "comma_count",
+      "importance": 0.045187853276729584
+    },
+    {
+      "feature": "title_words",
+      "importance": 0.044138625264167786
+    },
+    {
+      "feature": "hypothesis_words",
+      "importance": 0.04369742050766945
+    },
+    {
+      "feature": "abstract_length",
+      "importance": 0.043136872351169586
+    },
+    {
+      "feature": "title_length",
+      "importance": 0.042769771069288254
+    },
+    {
+      "feature": "cs_total_keywords",
+      "importance": 0.04263469949364662
+    },
+    {
+      "feature": "cs_algorithms_count",
+      "importance": 0.04222762584686279
+    },
+    {
+      "feature": "abstract_words",
+      "importance": 0.04215666651725769
+    }
+  ],
+  "impact_rf_builtin": [
+    {
+      "feature": "avg_word_length",
+      "importance": 0.0966229083037914
+    },
+    {
+      "feature": "abstract_length",
+      "importance": 0.08299878010712551
+    },
+    {
+      "feature": "abstract_words",
+      "importance": 0.08129127550769008
+    },
+    {
+      "feature": "title_length",
+      "importance": 0.08018212334201921
+    },
+    {
+      "feature": "comma_count",
+      "importance": 0.06081765698066801
+    },
+    {
+      "feature": "math_symbols",
+      "importance": 0.05740463537416177
+    },
+    {
+      "feature": "cs_total_keywords",
+      "importance": 0.05504384398717144
+    },
+    {
+      "feature": "sentence_count",
+      "importance": 0.04941359293168647
+    },
+    {
+      "feature": "cs_machine_learning_count",
+      "importance": 0.046655574663280665
+    },
+    {
+      "feature": "numbers_count",
+      "importance": 0.04642545462397251
+    },
+    {
+      "feature": "title_words",
+      "importance": 0.043697168632156454
+    },
+    {
+      "feature": "parentheses_count",
+      "importance": 0.03865085821513112
+    },
+    {
+      "feature": "cs_data_count",
+      "importance": 0.03784742650141411
+    },
+    {
+      "feature": "cs_algorithms_count",
+      "importance": 0.03536840254130676
+    },
+    {
+      "feature": "cs_systems_count",
+      "importance": 0.03337478070877474
+    },
+    {
+      "feature": "author_count",
+      "importance": 0.022108989890334833
+    },
+    {
+      "feature": "authors_per_reference",
+      "importance": 0.02116317175623234
+    },
+    {
+      "feature": "hypothesis_words",
+      "importance": 0.021142249085794863
+    },
+    {
+      "feature": "paper_age_from_2015",
+      "importance": 0.020070045280961145
+    },
+    {
+      "feature": "publication_year",
+      "importance": 0.019617357638103253
+    }
+  ],
+  "impact_xgb_builtin": [
+    {
+      "feature": "abstract_words",
+      "importance": 0.05460658296942711
+    },
+    {
+      "feature": "abstract_length",
+      "importance": 0.05445484444499016
+    },
+    {
+      "feature": "numbers_count",
+      "importance": 0.05274864286184311
+    },
+    {
+      "feature": "author_count",
+      "importance": 0.052729491144418716
+    },
+    {
+      "feature": "title_length",
+      "importance": 0.05245845764875412
+    },
+    {
+      "feature": "avg_word_length",
+      "importance": 0.05109110102057457
+    },
+    {
+      "feature": "hypothesis_words",
+      "importance": 0.0506959892809391
+    },
+    {
+      "feature": "comma_count",
+      "importance": 0.05059638246893883
+    },
+    {
+      "feature": "sentence_count",
+      "importance": 0.04935885965824127
+    },
+    {
+      "feature": "cs_algorithms_count",
+      "importance": 0.049017444252967834
+    },
+    {
+      "feature": "parentheses_count",
+      "importance": 0.04886973276734352
+    },
+    {
+      "feature": "cs_machine_learning_count",
+      "importance": 0.04807882755994797
+    },
+    {
+      "feature": "math_symbols",
+      "importance": 0.047965068370103836
+    },
+    {
+      "feature": "publication_year",
+      "importance": 0.04757654294371605
+    },
+    {
+      "feature": "cs_systems_count",
+      "importance": 0.04658440500497818
+    },
+    {
+      "feature": "cs_data_count",
+      "importance": 0.04592301696538925
+    },
+    {
+      "feature": "title_words",
+      "importance": 0.045832592993974686
+    },
+    {
+      "feature": "semicolon_count",
+      "importance": 0.04453224688768387
+    },
+    {
+      "feature": "cs_total_keywords",
+      "importance": 0.04266980662941933
+    },
+    {
+      "feature": "cs_security_count",
+      "importance": 0.035149551928043365
+    }
+  ],
+  "citation_rf_permutation": [
+    {
+      "feature": "abstract_length",
+      "importance": 26.148634000473585,
+      "std": 0.33319164011325814
+    },
+    {
+      "feature": "abstract_words",
+      "importance": 22.94502752677431,
+      "std": 0.33510589328719925
+    },
+    {
+      "feature": "sentence_count",
+      "importance": 7.653509385364378,
+      "std": 1.059661534443228
+    },
+    {
+      "feature": "title_length",
+      "importance": 7.4199066421911795,
+      "std": 0.21877551775386728
+    },
+    {
+      "feature": "title_words",
+      "importance": 6.2516675542713696,
+      "std": 0.14073462187301702
+    },
+    {
+      "feature": "parentheses_count",
+      "importance": 4.650872337579429,
+      "std": 1.5761535983657409
+    },
+    {
+      "feature": "cs_total_keywords",
+      "importance": 3.2053288390287635,
+      "std": 0.1284389419487991
+    },
+    {
+      "feature": "cs_machine_learning_count",
+      "importance": 2.9157884536358067,
+      "std": 0.5352127147320977
+    },
+    {
+      "feature": "comma_count",
+      "importance": 1.4656090088769047,
+      "std": 0.07542762464839348
+    },
+    {
+      "feature": "avg_word_length",
+      "importance": 1.3372180643243268,
+      "std": 0.09553478479384471
+    },
+    {
+      "feature": "cs_algorithms_count",
+      "importance": 1.045790033337235,
+      "std": 0.0644501738080962
+    },
+    {
+      "feature": "cs_data_count",
+      "importance": 1.0091898873896183,
+      "std": 0.09128459860003436
+    },
+    {
+      "feature": "math_symbols",
+      "importance": 0.9919397250581511,
+      "std": 0.13144053371692205
+    },
+    {
+      "feature": "numbers_count",
+      "importance": 0.5582227346009176,
+      "std": 0.10177730140048952
+    },
+    {
+      "feature": "cs_systems_count",
+      "importance": 0.32982573788303,
+      "std": 0.08006416478446263
+    },
+    {
+      "feature": "brackets_count",
+      "importance": 0.11310258854317112,
+      "std": 0.07550551593527366
+    },
+    {
+      "feature": "cs_security_count",
+      "importance": 0.06521107075324721,
+      "std": 0.06121212550567699
+    },
+    {
+      "feature": "hypothesis_words",
+      "importance": 0.06380806185395045,
+      "std": 0.04471886406349877
+    },
+    {
+      "feature": "authors_per_reference",
+      "importance": 0.0021799401678407548,
+      "std": 0.03424608746681726
+    },
+    {
+      "feature": "reference_count",
+      "importance": 0.0,
+      "std": 0.0
+    }
+  ],
+  "citation_xgb_permutation": [
+    {
+      "feature": "abstract_length",
+      "importance": 392.1290292015607,
+      "std": 8.78211291667963
+    },
+    {
+      "feature": "abstract_words",
+      "importance": 360.8555317756145,
+      "std": 7.114788437625027
+    },
+    {
+      "feature": "title_length",
+      "importance": 165.58145804014103,
+      "std": 4.040487339614457
+    },
+    {
+      "feature": "title_words",
+      "importance": 164.11785129883788,
+      "std": 6.151959142006625
+    },
+    {
+      "feature": "cs_total_keywords",
+      "importance": 31.15740781509955,
+      "std": 1.908181165119337
+    },
+    {
+      "feature": "sentence_count",
+      "importance": 24.71481701376374,
+      "std": 2.528428096451699
+    },
+    {
+      "feature": "avg_word_length",
+      "importance": 24.600347825321727,
+      "std": 1.5016147395646506
+    },
+    {
+      "feature": "cs_data_count",
+      "importance": 12.26196006383403,
+      "std": 2.038402667493144
+    },
+    {
+      "feature": "parentheses_count",
+      "importance": 9.63778889061756,
+      "std": 3.626212745850903
+    },
+    {
+      "feature": "math_symbols",
+      "importance": 8.880524767113851,
+      "std": 1.0858100679104163
+    },
+    {
+      "feature": "cs_algorithms_count",
+      "importance": 8.635001221310963,
+      "std": 1.0417802378768701
+    },
+    {
+      "feature": "cs_machine_learning_count",
+      "importance": 8.350631964628866,
+      "std": 1.120471860313198
+    },
+    {
+      "feature": "comma_count",
+      "importance": 4.808266821951264,
+      "std": 1.1122615880329954
+    },
+    {
+      "feature": "numbers_count",
+      "importance": 3.1872595943030206,
+      "std": 0.7446861461002235
+    },
+    {
+      "feature": "cs_systems_count",
+      "importance": 2.6481113176502533,
+      "std": 0.542318185114845
+    },
+    {
+      "feature": "brackets_count",
+      "importance": 1.3007885465569076,
+      "std": 1.1737075972576374
+    },
+    {
+      "feature": "author_count",
+      "importance": 0.06816325785593733,
+      "std": 0.3420642915342446
+    },
+    {
+      "feature": "reference_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "is_open_access",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "has_doi",
+      "importance": 0.0,
+      "std": 0.0
+    }
+  ],
+  "impact_rf_permutation": [
+    {
+      "feature": "title_length",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "abstract_length",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "has_complete_metadata",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "many_references",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "authors_per_reference",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "many_authors",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "single_author",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "paper_age_from_2015",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "has_doi",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "is_open_access",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "reference_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "author_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "publication_year",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "cs_security_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "cs_data_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "cs_systems_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "cs_algorithms_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "cs_machine_learning_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "semicolon_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "comma_count",
+      "importance": 0.0,
+      "std": 0.0
+    }
+  ],
+  "impact_xgb_permutation": [
+    {
+      "feature": "publication_year",
+      "importance": 0.0002999999999999975,
+      "std": 0.00016733200530681493
+    },
+    {
+      "feature": "semicolon_count",
+      "importance": 0.0002999999999999975,
+      "std": 9.99999999999987e-05
+    },
+    {
+      "feature": "author_count",
+      "importance": 0.00029000000000000136,
+      "std": 0.00018138357147216925
+    },
+    {
+      "feature": "cs_systems_count",
+      "importance": 0.00013999999999999847,
+      "std": 0.00027640549922170474
+    },
+    {
+      "feature": "cs_security_count",
+      "importance": 0.00010000000000000148,
+      "std": 8.944271909999105e-05
+    },
+    {
+      "feature": "authors_per_reference",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "many_authors",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "single_author",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "many_references",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "paper_age_from_2015",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "has_complete_metadata",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "has_doi",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "is_open_access",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "reference_count",
+      "importance": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "parentheses_count",
+      "importance": -9.999999999998898e-06,
+      "std": 0.00020223748416156584
+    },
+    {
+      "feature": "hypothesis_words",
+      "importance": -1.0000000000000287e-05,
+      "std": 0.00023853720883752993
+    },
+    {
+      "feature": "comma_count",
+      "importance": -1.0000000000001675e-05,
+      "std": 0.0003144837038703301
+    },
+    {
+      "feature": "brackets_count",
+      "importance": -3.0000000000000858e-05,
+      "std": 6.403124237433032e-05
+    },
+    {
+      "feature": "cs_data_count",
+      "importance": -4.999999999999727e-05,
+      "std": 0.00024999999999999914
+    },
+    {
+      "feature": "cs_total_keywords",
+      "importance": -9.99999999999987e-05,
+      "std": 0.00020493901531919243
+    }
+  ],
+  "citation_xgb_alt_explanation": [
+    {
+      "feature": "abstract_length",
+      "shap_importance": 1.909478783607483
+    },
+    {
+      "feature": "abstract_words",
+      "shap_importance": 1.5565742254257202
+    },
+    {
+      "feature": "avg_word_length",
+      "shap_importance": 1.361561894416809
+    },
+    {
+      "feature": "cs_total_keywords",
+      "shap_importance": 0.8637043833732605
+    },
+    {
+      "feature": "title_length",
+      "shap_importance": 0.8406558036804199
+    },
+    {
+      "feature": "title_words",
+      "shap_importance": 0.6194609999656677
+    },
+    {
+      "feature": "cs_data_count",
+      "shap_importance": 0.41948050260543823
+    },
+    {
+      "feature": "hypothesis_words",
+      "shap_importance": 0.3875889182090759
+    },
+    {
+      "feature": "math_symbols",
+      "shap_importance": 0.33414381742477417
+    },
+    {
+      "feature": "cs_machine_learning_count",
+      "shap_importance": 0.33101025223731995
+    }
+  ],
+  "impact_xgb_alt_explanation": [
+    {
+      "feature": "parentheses_count",
+      "shap_importance": 0.02
+    },
+    {
+      "feature": "abstract_length",
+      "shap_importance": 0.02
+    },
+    {
+      "feature": "title_length",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "cs_data_count",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "has_complete_metadata",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "many_references",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "authors_per_reference",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "many_authors",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "single_author",
+      "shap_importance": 0.0
+    },
+    {
+      "feature": "paper_age_from_2015",
+      "shap_importance": 0.0
+    }
+  ]
+}

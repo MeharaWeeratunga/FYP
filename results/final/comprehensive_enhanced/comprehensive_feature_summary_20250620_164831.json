@@ -1,0 +1,24 @@
+{
+  "timestamp": "20250620_164831",
+  "total_features": 889,
+  "feature_categories": {
+    "social_media": 8,
+    "github": 27,
+    "temporal": 24,
+    "network": 6,
+    "embeddings": 768
+  },
+  "api_integrations": {
+    "altmetric": true,
+    "github": true,
+    "temporal": true
+  },
+  "comprehensive_architecture": {
+    "social_media_integration": true,
+    "github_integration": true,
+    "temporal_analysis": true,
+    "transformer_embeddings": false,
+    "multi_modal_fusion": true,
+    "explainable_ai_ready": true
+  }
+}

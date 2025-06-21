@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-06-21T12:14:24.984020",
+  "summary": {},
+  "feature_insights": {
+    "most_important": [
+      "avg_word_length: 0.116",
+      "abstract_length: 0.081",
+      "title_length: 0.072",
+      "comma_count: 0.066",
+      "abstract_words: 0.065"
+    ]
+  },
+  "bias_insights": {
+    "detected_biases": []
+  },
+  "recommendations": [
+    "Consider temporal normalization to address publication year effects",
+    "Implement fairness constraints for author team size bias",
+    "Monitor open access status as potential confounding factor",
+    "Use ensemble methods to reduce individual model bias",
+    "Implement cross-validation across temporal periods"
+  ]
+}

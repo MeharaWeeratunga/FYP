@@ -1,0 +1,48 @@
+{
+  "temporal": {
+    "year_stats": [
+      {
+        "year": 2015,
+        "count": 2994,
+        "mean_citations": 0.012024048096192385,
+        "std_citations": 0.37796257496612107,
+        "impact_rate": 0.004008016032064128,
+        "median_citations": 0.0
+      },
+      {
+        "year": 2016,
+        "count": 673,
+        "mean_citations": 0.010401188707280832,
+        "std_citations": 0.13869712462606157,
+        "impact_rate": 0.007429420505200594,
+        "median_citations": 0.0
+      },
+      {
+        "year": 2017,
+        "count": 603,
+        "mean_citations": 0.011608623548922056,
+        "std_citations": 0.15742286850022702,
+        "impact_rate": 0.006633499170812604,
+        "median_citations": 0.0
+      },
+      {
+        "year": 2018,
+        "count": 559,
+        "mean_citations": 0.08944543828264759,
+        "std_citations": 1.947117954799602,
+        "impact_rate": 0.008944543828264758,
+        "median_citations": 0.0
+      },
+      {
+        "year": 2019,
+        "count": 170,
+        "mean_citations": 0.01764705882352941,
+        "std_citations": 0.13205384466461617,
+        "impact_rate": 0.01764705882352941,
+        "median_citations": 0.0
+      }
+    ],
+    "temporal_correlation": {
+      "correlation": 0.41576655208160995,
+      "p_value": 0.4863030568875679,
+      "significant": 

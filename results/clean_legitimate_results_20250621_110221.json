@@ -1,0 +1,52 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-06-21T11:02:19.676806",
+    "total_papers": 1000,
+    "total_features": 829,
+    "transformer_used": true,
+    "data_leakage_checked": true,
+    "legitimate_features_only": true
+  },
+  "performance_results": {
+    "high_impact_top10": {
+      "RandomForest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": null,
+        "cv_f1": 1.0,
+        "cv_f1_std": 0.0
+      },
+      "LightGBM": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": NaN,
+        "cv_f1": 1.0,
+        "cv_f1_std": 0.0
+      }
+    },
+    "high_impact_top20": {
+      "RandomForest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": null,
+        "cv_f1": 1.0,
+        "cv_f1_std": 0.0
+      },
+      "LightGBM": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": NaN,
+        "cv_f1": 1.0,
+        "cv_f1_std": 0.0
+      }
+    }
+  }
+}

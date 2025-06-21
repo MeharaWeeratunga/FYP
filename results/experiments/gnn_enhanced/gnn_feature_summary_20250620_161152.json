@@ -1,0 +1,11 @@
+{
+  "timestamp": "20250620_161152",
+  "total_features": 94,
+  "feature_types": {
+    "text_features": 6,
+    "keyword_features": 6,
+    "metadata_features": 5,
+    "network_features": 6,
+    "gnn_embeddings": 64
+  }
+}

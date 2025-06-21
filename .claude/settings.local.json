@@ -16,7 +16,18 @@
       "Bash(python:*)",
       "Bash(mv:*)",
       "Bash(tree:*)",
-      "Bash(jq:*)"
+      "Bash(jq:*)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(aws:*)",
+      "Bash(timeout 600 python3 scripts/data_collection/openalex_snapshot_extractor.py)",
+      "Bash(grep:*)",
+      "Bash(pip3 install:*)",
+      "WebFetch(domain:docs.github.com)",
+      "WebFetch(domain:huggingface.co)",
+      "Bash(sudo pip install:*)",
+      "Bash(conda install:*)",
+      "WebFetch(domain:dblp.org)"
     ],
     "deny": []
   }

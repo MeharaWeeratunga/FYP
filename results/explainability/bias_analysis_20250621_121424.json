@@ -1,0 +1,235 @@
+{
+  "temporal": {
+    "year_stats": [
+      {
+        "year": 2020,
+        "count": 12491,
+        "mean_citations": 3.652629893523337,
+        "std_citations": 5.308631287022396,
+        "impact_rate": 0.8494115763349612,
+        "median_citations": 2.0
+      },
+      {
+        "year": 2021,
+        "count": 12618,
+        "mean_citations": 3.5752892692978286,
+        "std_citations": 5.187603388165728,
+        "impact_rate": 0.8475194167062926,
+        "median_citations": 2.0
+      },
+      {
+        "year": 2022,
+        "count": 12397,
+        "mean_citations": 3.578446398322175,
+        "std_citations": 5.1116839448766545,
+        "impact_rate": 0.847059772525611,
+        "median_citations": 2.0
+      },
+      {
+        "year": 2023,
+        "count": 12494,
+        "mean_citations": 3.690331359052345,
+        "std_citations": 5.584759395287832,
+        "impact_rate": 0.851688810629102,
+        "median_citations": 2.0
+      }
+    ],
+    "temporal_correlation": {
+      "correlation": 0.26440472964379064,
+      "p_value": 0.7355952703562094,
+      "significant": false
+    }
+  },
+  "author": {
+    "group_stats": [
+      {
+        "group": "single",
+        "count": 4985,
+        "mean_citations": 3.6276830491474423,
+        "std_citations": 5.297016402911758,
+        "impact_rate": 0.8479438314944835
+      },
+      {
+        "group": "small_team",
+        "count": 39982,
+        "mean_citations": 3.6237556900605274,
+        "std_citations": 5.306736813952193,
+        "impact_rate": 0.8488569856435396
+      },
+      {
+        "group": "large_team",
+        "count": 5033,
+        "mean_citations": 3.6236836876614347,
+        "std_citations": 5.263925752627919,
+        "impact_rate": 0.8503874428770117
+      }
+    ],
+    "statistical_test": {
+      "test": "kruskal_wallis",
+      "statistic": 0.469779906371265,
+      "p_value": 0.7906578542194702,
+      "significant": false
+    }
+  },
+  "open_access": {},
+  "domain": {
+    "domain_stats": [
+      {
+        "domain": "machine_learning",
+        "count": 44178,
+        "mean_citations": 3.605029652768346,
+        "impact_rate": 0.8485445244239214
+      },
+      {
+        "domain": "algorithms",
+        "count": 24164,
+        "mean_citations": 3.6676047012084094,
+        "impact_rate": 0.8511835788776693
+      },
+      {
+        "domain": "systems",
+        "count": 14080,
+        "mean_citations": 3.6727982954545455,
+        "impact_rate": 0.8501420454545454
+      },
+      {
+        "domain": "data_science",
+        "count": 30472,
+        "mean_citations": 3.6244749278025727,
+        "impact_rate": 0.8484182200052507
+      },
+      {
+        "domain": "security",
+        "count": 2252,
+        "mean_citations": 3.6714031971580816,
+        "impact_rate": 0.8583481349911191
+      }
+    ]
+  },
+  "correlations": {
+    "high_correlations": [
+      {
+        "feature1": "title_length",
+        "feature2": "title_words",
+        "correlation": 0.9179545872709233
+      },
+      {
+        "feature1": "abstract_length",
+        "feature2": "abstract_words",
+        "correlation": 0.9829537542141217
+      },
+      {
+        "feature1": "publication_year",
+        "feature2": "paper_age_from_2015",
+        "correlation": 1.000000000000004
+      },
+      {
+        "feature1": "author_count",
+        "feature2": "authors_per_reference",
+        "correlation": 1.0
+      }
+    ],
+    "target_correlations": [
+      {
+        "feature": "cs_systems_count",
+        "citation_correlation": 0.0090573667632998,
+        "impact_correlation": 0.00430720609221411
+      },
+      {
+        "feature": "cs_total_keywords",
+        "citation_correlation": 0.008863601701595804,
+        "impact_correlation": 0.004896025051909183
+      },
+      {
+        "feature": "title_length",
+        "citation_correlation": -0.0082999538902694,
+        "impact_correlation": -0.0020632379158736255
+      },
+      {
+        "feature": "cs_algorithms_count",
+        "citation_correlation": 0.00827723316142452,
+        "impact_correlation": 0.0036016789509923388
+      },
+      {
+        "feature": "title_words",
+        "citation_correlation": -0.0064502947703888,
+        "impact_correlation": -0.002213165042150918
+      },
+      {
+        "feature": "abstract_length",
+        "citation_correlation": -0.005577959918714194,
+        "impact_correlation": -0.0006928477583234764
+      },
+      {
+        "feature": "parentheses_count",
+        "citation_correlation": -0.00503493187628853,
+        "impact_correlation": 0.004374713368028991
+      },
+      {
+        "feature": "cs_security_count",
+        "citation_correlation": -0.004922736124933733,
+        "impact_correlation": 0.00274145105230356
+      },
+      {
+        "feature": "abstract_words",
+        "citation_correlation": -0.004680238451218201,
+        "impact_correlation": -7.624479943312163e-05
+      },
+      {
+        "feature": "avg_word_length",
+        "citation_correlation": -0.004594019123288773,
+        "impact_correlation": -0.001705034668606475
+      },
+      {
+        "feature": "sentence_count",
+        "citation_correlation": -0.004197958139652964,
+        "impact_correlation": 0.001302597584053747
+      },
+      {
+        "feature": "comma_count",
+        "citation_correlation": -0.004035534301140523,
+        "impact_correlation": -0.0007129146834016318
+      },
+      {
+        "feature": "cs_machine_learning_count",
+        "citation_correlation": 0.003583073405906273,
+        "impact_correlation": 0.0031439300770140922
+      },
+      {
+        "feature": "cs_data_count",
+        "citation_correlation": 0.0029647271184868595,
+        "impact_correlation": -0.00048283912459653523
+      },
+      {
+        "feature": "publication_year",
+        "citation_correlation": 0.002469476932846266,
+        "impact_correlation": 0.001997771915117414
+      },
+      {
+        "feature": "paper_age_from_2015",
+        "citation_correlation": 0.0024694769328462004,
+        "impact_correlation": 0.0019977719151174837
+      },
+      {
+        "feature": "numbers_count",
+        "citation_correlation": 0.0022871521474910122,
+        "impact_correlation": -0.002337574098483184
+      },
+      {
+        "feature": "math_symbols",
+        "citation_correlation": -0.002152452171526927,
+        "impact_correlation": 0.00350000733337001
+      },
+      {
+        "feature": "hypothesis_words",
+        "citation_correlation": -0.0015033075702947786,
+        "impact_correlation": 0.003080293328865453
+      },
+      {
+        "feature": "brackets_count",
+        "citation_correlation": 0.0011345760325831443,
+        "impact_correlation": 0.005142994047925911
+      }
+    ]
+  }
+}
