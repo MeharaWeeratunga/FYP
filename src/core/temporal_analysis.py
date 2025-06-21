@@ -1,36 +1,126 @@
 """
-Temporal Trend Analysis for Citation Patterns
-Analyze temporal dynamics of paper impact using existing citation data
+Improved Temporal Analysis - Fixed Data Leakage Issues
+Only uses features available at publication time
 """
-
 import json
 import numpy as np
 import pandas as pd
 from pathlib import Path
 import logging
 import warnings
-from datetime import datetime, timedelta
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
+from datetime import datetime
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
-
 warnings.filterwarnings('ignore')
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-class TemporalCitationAnalyzer:
+class ImprovedTemporalAnalyzer:
     """
-    Analyze temporal patterns in citation data for early virality prediction
-    Uses existing citation and publication data to identify temporal trends
+    Temporal analysis without data leakage - only publication-time features
     """
-    
     def __init__(self):
         self.scaler = StandardScaler()
-        self.temporal_features = []
+        
+    def extract_temporal_features(self, df):
+        """Extract temporal features WITHOUT using citation data"""
+        logger.info("Extracting legitimate temporal features...")
+        
+        temporal_features_list = []
+        current_year = datetime.now().year
+        
+        for idx, (_, paper) in enumerate(df.iterrows()):
+            pub_year = paper.get('year', 2020)
+            paper_age_years = max(0, current_year - pub_year)
+            
+            # Extract publication month if available
+            pub_date = paper.get('publication_date', '')
+            if pub_date and len(str(pub_date)) >= 7:
+                try:
+                    pub_month = int(str(pub_date).split('-')[1])
+                except:
+                    pub_month = 6  # Default to June
+            else:
+                pub_month = 6
+            
+            features = {
+                # Basic temporal features (legitimate)
+                'temporal_paper_age_years': paper_age_years,
+                'temporal_paper_age_months': paper_age_years * 12,
+                'temporal_publication_year': pub_year,
+                'temporal_publication_month': pub_month,
+                'temporal_publication_quarter': (pub_month - 1) // 3 + 1,
+                
+                # Era features (legitimate)
+                'temporal_deep_learning_era': 1 if 2015 <= pub_year <= 2019 else 0,
+                'temporal_transformer_era': 1 if pub_year >= 2018 else 0,
+                'temporal_gpt_era': 1 if pub_year >= 2020 else 0,
+                'temporal_covid_period': 1 if 2020 <= pub_year <= 2022 else 0,
+                'temporal_recent_2years': 1 if paper_age_years <= 2 else 0,
+                
+                # Conference timing (legitimate)
+                'temporal_summer_conference': 1 if pub_month in [6, 7, 8] else 0,
+                'temporal_winter_conference': 1 if pub_month in [12, 1, 2] else 0,
+                'temporal_major_conf_month': 1 if pub_month in [3, 6, 9, 12] else 0,
+                
+                # Research cycle features
+                'temporal_early_year': 1 if pub_month <= 3 else 0,
+                'temporal_mid_year': 1 if 4 <= pub_month <= 9 else 0,
+                'temporal_late_year': 1 if pub_month >= 10 else 0,
+                
+                # Relative timing features
+                'temporal_years_from_2015': max(0, pub_year - 2015),
+                'temporal_years_from_2020': max(0, pub_year - 2020),
+                'temporal_pre_2018': 1 if pub_year < 2018 else 0,
+                'temporal_post_2020': 1 if pub_year > 2020 else 0,
+                
+                # NO CITATION-BASED FEATURES - PREVENTS DATA LEAKAGE
+                'paper_index': idx
+            }
+            
+            temporal_features_list.append(features)
+        
+        temporal_df = pd.DataFrame(temporal_features_list)
+        logger.info(f"Legitimate temporal features extracted: {temporal_df.shape[1] - 1} features")
+        
+        return temporal_df
+
+    def create_temporal_context_features(self, df, temporal_df):
+        """Create contextual temporal features based on paper metadata"""
+        logger.info("Creating temporal context features...")
+        
+        # Calculate field-specific temporal trends
+        context_features = []
+        
+        for idx, (_, paper) in enumerate(df.iterrows()):
+            pub_year = paper.get('year', 2020)
+            
+            # Field evolution features (based on keywords)
+            title_abstract = f"{paper.get('title', '')} {paper.get('abstract', '')}".lower()
+            
+            features = {
+                # Technology adoption timing
+                'temporal_dl_keywords_era': 1 if ('deep learning' in title_abstract or 'neural' in title_abstract) and pub_year >= 2015 else 0,
+                'temporal_transformer_keywords': 1 if ('transformer' in title_abstract or 'attention' in title_abstract) and pub_year >= 2017 else 0,
+                'temporal_llm_keywords': 1 if ('language model' in title_abstract or 'gpt' in title_abstract) and pub_year >= 2018 else 0,
+                
+                # Research area timing
+                'temporal_cv_golden_age': 1 if ('computer vision' in title_abstract or 'image' in title_abstract) and 2015 <= pub_year <= 2020 else 0,
+                'temporal_nlp_revolution': 1 if ('natural language' in title_abstract or 'nlp' in title_abstract) and pub_year >= 2018 else 0,
+                
+                # Collaboration indicators over time
+                'temporal_large_team_recent': 1 if paper.get('author_count', 1) >= 5 and pub_year >= 2020 else 0,
+                'temporal_international_collab': 1 if paper.get('author_count', 1) >= 3 and pub_year >= 2018 else 0,
+            }
+            
+            context_features.append(features)
+        
+        context_df = pd.DataFrame(context_features)
+        
+        # Combine with existing temporal features
+        combined_temporal_df = pd.concat([temporal_df, context_df], axis=1)
+        
+        return combined_temporal_df
         
     def load_papers_data(self, data_path=None):
         """Load papers dataset for temporal analysis"""

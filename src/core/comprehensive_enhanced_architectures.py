@@ -33,7 +33,7 @@ except ImportError:
     print("GitHub integration not available")
 
 try:
-    from temporal_analysis import TemporalCitationAnalyzer
+    from temporal_analysis import ImprovedTemporalAnalyzer
     TEMPORAL_AVAILABLE = True
 except ImportError:
     TEMPORAL_AVAILABLE = False
@@ -92,7 +92,7 @@ class ComprehensiveEnhancedArchitectures:
             self.github_integrator = GitHubAPIIntegrator(rate_limit_delay=1.0)
         
         if TEMPORAL_AVAILABLE:
-            self.temporal_analyzer = TemporalCitationAnalyzer()
+            self.temporal_analyzer = ImprovedTemporalAnalyzer()
         
     def load_openalex_dataset(self):
         """Load OpenAlex dataset"""
